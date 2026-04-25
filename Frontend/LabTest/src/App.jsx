@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { getItems } from './api';
-import ItemForm from './components/ItemForm';
-import ItemList from './components/ItemList';
+import ItemForm from './components/itemForm';
+import ItemList from './components/itemList';
 
 function App() {
   const [items, setItems] = useState([]);
